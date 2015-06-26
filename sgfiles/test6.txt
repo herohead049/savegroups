@@ -1,0 +1,319 @@
+NetWorker savegroup: (notice) CH_DB_SPS_ZH_2 completed, Total 1 client(s), 1 Succeeded. See group completion details for more information.
+
+Succeeded: ch00si90
+
+Start time:   Mon May 18 15:30:00 2015
+End time:     Mon May 18 15:32:56 2015
+
+
+--- Successful Save Sets ---
+
+* ch00si90:savefs savefs ch00si90: succeeded.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 43708:(pid 9336):Start time: Mon May 18 15:30:32 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 43621:(pid 9336):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 87749:(pid 9336):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_16";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 86704:(pid 9336): Successfully established DDCL session for save-set ID '123333091' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_16).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 53085:(pid 9336):Backing up of Collaboration_WA_DATA_Content_16 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_16 level=incr, 87 MB 00:00:06      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 completed savetime=1431955939
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 86704 1431955948 1 0 0 13680 9336 0 ch00si90.eu.mt.mtnet (pid9336) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 4284082668 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_16
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 43709 1431955949 1 0 0 13680 9336 0 ch00si90.eu.mt.mtnet (pid9336) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:29 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_16 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 43708:(pid 14076):Start time: Mon May 18 15:30:32 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 43621:(pid 14076):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 87749:(pid 14076):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_17";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 86704:(pid 14076): Successfully established DDCL session for save-set ID '190441950' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_17).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 53085:(pid 14076):Backing up of Collaboration_WA_DATA_Content_17 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_17 level=incr, 4238 KB 00:00:07      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 completed savetime=1431955930
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 86704 1431955938 1 0 0 5708 14076 0 ch00si90.eu.mt.mtnet (pid14076) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 156887521 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_17
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 43709 1431955939 1 0 0 5708 14076 0 ch00si90.eu.mt.mtnet (pid14076) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:19 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_17 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 43708:(pid 8624):Start time: Mon May 18 15:30:32 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 43621:(pid 8624):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 87749:(pid 8624):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_18";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 86704:(pid 8624): Successfully established DDCL session for save-set ID '140110306' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_18).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 53085:(pid 8624):Backing up of Collaboration_WA_DATA_Content_18 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_18 level=incr, 55 MB 00:00:06      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 completed savetime=1431955937
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 86704 1431955944 1 0 0 1968 8624 0 ch00si90.eu.mt.mtnet (pid8624) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 8 73001447 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_18
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 43709 1431955945 1 0 0 1968 8624 0 ch00si90.eu.mt.mtnet (pid8624) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:25 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_18 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 43708:(pid 1420):Start time: Mon May 18 15:30:32 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 43621:(pid 1420):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 87749:(pid 1420):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_19";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 86704:(pid 1420): Successfully established DDCL session for save-set ID '3965315573' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_19).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 53085:(pid 1420):Backing up of Collaboration_WA_DATA_Content_19 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_19 level=incr, 45 MB 00:00:14      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 completed savetime=1431955954
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 86704 1431955969 1 0 0 12756 1420 0 ch00si90.eu.mt.mtnet (pid1420) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3831097857 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_19
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 43709 1431955975 1 0 0 12756 1420 0 ch00si90.eu.mt.mtnet (pid1420) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:55 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_19 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 43708:(pid 13468):Start time: Mon May 18 15:30:33 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 43621:(pid 13468):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 87749:(pid 13468):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_20";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 86704:(pid 13468): Successfully established DDCL session for save-set ID '4200196591' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_20).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 53085:(pid 13468):Backing up of Collaboration_WA_DATA_Content_20 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_20 level=incr, 4055 KB 00:00:04      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 completed savetime=1431955950
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 86704 1431955955 1 0 0 11676 13468 0 ch00si90.eu.mt.mtnet (pid13468) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 4032424434 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_20
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 43709 1431955964 1 0 0 11676 13468 0 ch00si90.eu.mt.mtnet (pid13468) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:44 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_20 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 43708:(pid 12176):Start time: Mon May 18 15:30:33 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 43621:(pid 12176):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 87749:(pid 12176):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_21";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 86704:(pid 12176): Successfully established DDCL session for save-set ID '4049201650' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_21).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 53085:(pid 12176):Backing up of Collaboration_WA_DATA_Content_21 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_21 level=incr, 19 MB 00:00:11      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 completed savetime=1431955953
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 86704 1431955964 1 0 0 13048 12176 0 ch00si90.eu.mt.mtnet (pid12176) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3864652284 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_21
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 43709 1431955973 1 0 0 13048 12176 0 ch00si90.eu.mt.mtnet (pid12176) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:53 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_21 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 43708:(pid 7304):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 43621:(pid 7304):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 87749:(pid 7304):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_22";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 86704:(pid 7304): Successfully established DDCL session for save-set ID '4183419376' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_22).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 53085:(pid 7304):Backing up of Collaboration_WA_DATA_Content_22 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_22 level=incr, 143 KB 00:00:04      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 completed savetime=1431955951
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 86704 1431955960 1 0 0 9840 7304 0 ch00si90.eu.mt.mtnet (pid7304) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3931761141 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_22
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 43709 1431955969 1 0 0 9840 7304 0 ch00si90.eu.mt.mtnet (pid7304) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:49 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_22 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 43708:(pid 2948):Start time: Mon May 18 15:30:33 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 43621:(pid 2948):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 87749:(pid 2948):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_23";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 86704:(pid 2948): Successfully established DDCL session for save-set ID '4015647219' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_23).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 53085:(pid 2948):Backing up of Collaboration_WA_DATA_Content_23 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_23 level=incr, 108 MB 00:00:12      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 completed savetime=1431955955
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 86704 1431955968 1 0 0 5972 2948 0 ch00si90.eu.mt.mtnet (pid2948) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3847875071 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_23
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 43709 1431955974 1 0 0 5972 2948 0 ch00si90.eu.mt.mtnet (pid2948) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:54 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_23 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 43708:(pid 3792):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 43621:(pid 3792):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 87749:(pid 3792):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_24";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 86704:(pid 3792): Successfully established DDCL session for save-set ID '106555877' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_24).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 53085:(pid 3792):Backing up of Collaboration_WA_DATA_Content_24 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_24 level=incr, 167 KB 00:00:04      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 completed savetime=1431955940
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 86704 1431955945 1 0 0 8676 3792 0 ch00si90.eu.mt.mtnet (pid3792) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 8 22669801 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_24
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 43709 1431955946 1 0 0 8676 3792 0 ch00si90.eu.mt.mtnet (pid3792) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:26 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_24 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 43708:(pid 1264):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 43621:(pid 1264):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 87749:(pid 1264):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_25";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 86704:(pid 1264): Successfully established DDCL session for save-set ID '4267305452' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_25).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 53085:(pid 1264):Backing up of Collaboration_WA_DATA_Content_25 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_25 level=incr, 463 KB 00:00:04      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 completed savetime=1431955948
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 86704 1431955952 1 0 0 10212 1264 0 ch00si90.eu.mt.mtnet (pid1264) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 4166642160 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_25
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 43709 1431955956 1 0 0 10212 1264 0 ch00si90.eu.mt.mtnet (pid1264) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:36 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_25 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 43708:(pid 11472):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 43621:(pid 11472):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 87749:(pid 11472):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_26";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 86704:(pid 11472): Successfully established DDCL session for save-set ID '89778663' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_26).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 53085:(pid 11472):Backing up of Collaboration_WA_DATA_Content_26 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_26 level=incr, 239 KB 00:00:05      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 completed savetime=1431955942
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 86704 1431955947 1 0 0 13560 11472 0 ch00si90.eu.mt.mtnet (pid11472) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 7 5892587 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_26
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 43709 1431955948 1 0 0 13560 11472 0 ch00si90.eu.mt.mtnet (pid11472) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:28 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_26 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 43708:(pid 9424):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 43621:(pid 9424):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 87749:(pid 9424):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_27";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 86704:(pid 9424): Successfully established DDCL session for save-set ID '4250528237' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_27).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 53085:(pid 9424):Backing up of Collaboration_WA_DATA_Content_27 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_27 level=incr, 143 KB 00:00:04      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 completed savetime=1431955948
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 86704 1431955954 1 0 0 8036 9424 0 ch00si90.eu.mt.mtnet (pid9424) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 4099533298 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_27
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 43709 1431955961 1 0 0 8036 9424 0 ch00si90.eu.mt.mtnet (pid9424) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:41 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_27 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 43708:(pid 8428):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 43621:(pid 8428):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 87749:(pid 8428):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_31";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 86704:(pid 8428): Successfully established DDCL session for save-set ID '4082756082' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_31).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 53085:(pid 8428):Backing up of Collaboration_WA_DATA_Content_31 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_31 level=incr, 143 KB 00:00:09      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 completed savetime=1431955953
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 86704 1431955963 1 0 0 9532 8428 0 ch00si90.eu.mt.mtnet (pid8428) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3881429498 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_31
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 43709 1431955971 1 0 0 9532 8428 0 ch00si90.eu.mt.mtnet (pid8428) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:51 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_31 
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 43708:(pid 9044):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 43621:(pid 9044):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 87749:(pid 9044):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_DATA_Content_32";
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 86704:(pid 9044): Successfully established DDCL session for save-set ID '4216973806' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_DATA_Content_32).
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 53085:(pid 9044):Backing up of Collaboration_WA_DATA_Content_32 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_DATA_Content_32 level=incr, 143 KB 00:00:04      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 completed savetime=1431955949
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 86704 1431955954 1 0 0 1464 9044 0 ch00si90.eu.mt.mtnet (pid9044) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 4065978866 12 20 ch00si90.eu.mt.mtnet 51 38 MSSQL:Collaboration_WA_DATA_Content_32
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 43709 1431955963 1 0 0 1464 9044 0 ch00si90.eu.mt.mtnet (pid9044) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:43 2015
+* ch00si90:MSSQL:Collaboration_WA_DATA_Content_32 
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 43708:(pid 9612):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 43621:(pid 9612):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 87749:(pid 9612):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_BOD_Content_01";
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 86704:(pid 9612): Successfully established DDCL session for save-set ID '4133087729' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_BOD_Content_01).
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 53085:(pid 9612):Backing up of Collaboration_WA_BOD_Content_01 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_BOD_Content_01 level=incr, 143 KB 00:00:09      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 completed savetime=1431955952
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 86704 1431955962 1 0 0 7400 9612 0 ch00si90.eu.mt.mtnet (pid9612) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3898206713 12 20 ch00si90.eu.mt.mtnet 51 37 MSSQL:Collaboration_WA_BOD_Content_01
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 43709 1431955970 1 0 0 7400 9612 0 ch00si90.eu.mt.mtnet (pid9612) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:50 2015
+* ch00si90:MSSQL:Collaboration_WA_BOD_Content_01 
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 43708:(pid 10508):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 43621:(pid 10508):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 87749:(pid 10508):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_MYSITE_Content_01";
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 86704:(pid 10508): Successfully established DDCL session for save-set ID '4116310514' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_MYSITE_Content_01).
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 53085:(pid 10508):Backing up of Collaboration_WA_MYSITE_Content_01 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_MYSITE_Content_01 level=incr, 380 KB 00:00:10      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 completed savetime=1431955951
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 86704 1431955963 1 0 0 1604 10508 0 ch00si90.eu.mt.mtnet (pid10508) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3914983929 12 20 ch00si90.eu.mt.mtnet 51 40 MSSQL:Collaboration_WA_MYSITE_Content_01
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 43709 1431955969 1 0 0 1604 10508 0 ch00si90.eu.mt.mtnet (pid10508) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:49 2015
+* ch00si90:MSSQL:Collaboration_WA_MYSITE_Content_01 
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 43708:(pid 6632):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 43621:(pid 6632):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 87749:(pid 6632):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_ONE_Content_01";
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 86704:(pid 6632): Successfully established DDCL session for save-set ID '4149864944' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_ONE_Content_01).
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 53085:(pid 6632):Backing up of Collaboration_WA_ONE_Content_01 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_ONE_Content_01 level=incr, 1743 KB 00:00:05      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 completed savetime=1431955952
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 86704 1431955957 1 0 0 8852 6632 0 ch00si90.eu.mt.mtnet (pid6632) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3982092789 12 20 ch00si90.eu.mt.mtnet 51 37 MSSQL:Collaboration_WA_ONE_Content_01
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 43709 1431955966 1 0 0 8852 6632 0 ch00si90.eu.mt.mtnet (pid6632) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:46 2015
+* ch00si90:MSSQL:Collaboration_WA_ONE_Content_01 
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 43708:(pid 8924):Start time: Mon May 18 15:30:34 2015
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 43621:(pid 8924):Computer Name: CH00SI90     User Name: SYSTEM
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 87749:(pid 8924):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI90.eu.mt.mtnet.
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01             NSR_BACKUP_LEVEL: incr;
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01            NSR_DIRECT_ACCESS: default;
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01                    NSR_GROUP: CH_DB_SPS_ZH_2;
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01             NSR_SAVESET_NAME: "MSSQL:Collaboration_WA_SPAPP_Content_01";
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 86704:(pid 8924): Successfully established DDCL session for save-set ID '3948538357' (ch00si90.eu.mt.mtnet:MSSQL:Collaboration_WA_SPAPP_Content_01).
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 53085:(pid 8924):Backing up of Collaboration_WA_SPAPP_Content_01 succeeded.
+  ch00si90: MSSQL:Collaboration_WA_SPAPP_Content_01 level=incr, 956 KB 00:00:14      1 file(s)
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 completed savetime=1431955955
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 86704 1431955969 1 0 0 13572 8924 0 ch00si90.eu.mt.mtnet (pid8924) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3814320641 12 20 ch00si90.eu.mt.mtnet 51 39 MSSQL:Collaboration_WA_SPAPP_Content_01
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 43709 1431955976 1 0 0 13572 8924 0 ch00si90.eu.mt.mtnet (pid8924) NSR notice 13 Stop time: %s 1 35 25 Mon May 18 15:32:56 2015
+* ch00si90:MSSQL:Collaboration_WA_SPAPP_Content_01 
+
+
