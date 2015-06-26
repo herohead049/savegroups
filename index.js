@@ -23,10 +23,12 @@ var saveGroup = {
     failed: []
 }
 
-var temp =  [{
-    server: "",
-    details: []
-}];
+//var temp =  [{
+//    server: "",
+//    details: []
+//}];
+
+var temp = [];
 
 
 function findPattern(files, regex) {
@@ -81,13 +83,20 @@ function findPattern(files, regex) {
 
 
 findPattern(
-['sgfiles/test1.txt'],
+['sgfiles/test10.txt'],
     /\(notice\)/g
     )
 .on('fileread', function(file) {
     console.log(file + ' was read');
     console.log(saveGroup);
-    console.log(temp);
+    _.forEach(temp, function (s) {
+       // console.log(s.servername,s.details);
+
+    });
+
+    console.log(_.pluck(_.filter(temp, { 'servername' : "ch00sa09"}) , 'details'));
+
+    //console.log(temp[1]);
 })
 .on('found', function(file, match) {
     console.log('Matched "' + match + '" in file ' + file);
@@ -116,7 +125,8 @@ findPattern(
 .on('details', function(ln, file) {
     var t = ln.split(":")[0].split(" ")[1];
     //console.log(t);
-    temp.server[t] = t;
+    //temp.server[t] = t;
+    checkAndAdd(t,ln);
     //temp.details.push(ln);
 
 })
@@ -124,3 +134,11 @@ findPattern(
     saveGroup.succeeded = ln.split(":")[1].split(",");
 });
 
+
+function checkAndAdd(name,ln) {
+  var id = temp.length + 1;
+  var found = temp.some(function (el) {
+    return el.username === name;
+  });
+  if (!found) { temp.push({ servername: name , details: ln}); }
+}
