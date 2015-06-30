@@ -6,7 +6,9 @@
   "author": "Craig David",
   "dependencies": {
     "amqplib": "^0.3.2",
+    "cdlibjs": "^1.1.5",
     "chalk": "^1.0.0",
+    "chokidar": "^1.0.3",
     "lodash": "^3.9.3"
   },
   "license": "MIT"

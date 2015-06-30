@@ -6,6 +6,10 @@ var EventEmitter = require('events').EventEmitter;
 var fs = require('fs');
 var chalk = require('chalk');
 var _ = require('lodash');
+var cdlibjs = require('cdlibjs');
+var chokidar = require('chokidar');
+
+
 
 var error = chalk.bold.red;
 var success = chalk.bold.green;
@@ -30,6 +34,23 @@ var saveGroup = {
 
 var temp = [];
 
+var watcher = chokidar.watch('sgFilesDirectory/*.txt', {
+  ignored: /[\/\\]\./,
+  persistent: true
+});
+
+watcher
+  .on('add', function(path) {
+    processFile(path);
+});
+
+
+var rmq = cdlibjs.rabbitMQ;
+rmq.server = cdlibjs.getRabbitMQAddress();
+rmq.routingKey = "nw_failed";
+
+//console.log(rmq);
+//process.exit(0);
 
 function findPattern(files, regex) {
     var emitter = new EventEmitter();
@@ -90,9 +111,6 @@ function findPattern(files, regex) {
                     }
                 }
                 **/
-
-
-
             });
 
             emitter.emit('fileread',file);
@@ -102,12 +120,9 @@ function findPattern(files, regex) {
     return emitter;
 }
 
+function processFile(file) {
 
-
-findPattern(
-['sgfiles/test10.txt'],
-    /\(notice\)/g
-    )
+findPattern([file],/\(notice\)/g)
 .on('fileread', function(file) {
     //console.log(file + ' was read');
     console.log(saveGroup);
@@ -115,6 +130,11 @@ findPattern(
        // console.log(s.servername,s.details);
 
     });
+
+    var tmpFile = saveGroup.startTime.replace(/\:/g,'_');
+    sendCompleteSaveGroup(file, saveGroup.name + "_" + tmpFile.replace(/\ /g,'_') + '.txt');
+
+
 
     //console.log(_.pluck(_.filter(temp, { 'servername' : "ch00sa09"}) , 'details'));
 
@@ -128,6 +148,14 @@ findPattern(
 })
 .on('disabled', function(ln, file) {
     saveGroup.disabled = ln.split(":")[1].split(",");
+        //rmq.routingKey = "nw_disabled";
+    _.forEach(saveGroup.disabled, function (server) {
+    var tempDisabled = {
+            server: server,
+            group: saveGroup.name
+        };
+        rmq.publishTopic(JSON.stringify(tempDisabled), "nw_disabled");
+    });
 })
 .on('startTime', function(ln, file) {
     saveGroup.startTime = ln.split("time:")[1].trim();
@@ -143,6 +171,14 @@ findPattern(
 })
 .on('failed', function(ln, file) {
     saveGroup.failed = ln.split(":")[1].split(",");
+    //rmq.routingKey = "nw_failed";
+    _.forEach(saveGroup.failed, function (server) {
+        var tempFailed = {
+            server: server,
+            group: saveGroup.name
+        };
+        rmq.publishTopic(JSON.stringify(tempFailed), "nw_failed");
+    });
 })
 .on('details', function(ln, file) {
     var t = ln.split(":")[0].split(" ")[1];
@@ -156,13 +192,25 @@ findPattern(
     //console.log(t);
     //temp.server[t] = t;
     console.log("failed", ln);
-    //temp.details.push(ln);
+    //rmq.publishTopic(ln);
+
 
 })
 .on('succeeded', function(ln, file) {
     saveGroup.succeeded = ln.split(":")[1].split(",");
+    console.log("Count of publish" , saveGroup.succeeded.length);
+        //rmq.routingKey = "nw_success";
+    _.forEach(saveGroup.succeeded, function (server) {
+        console.log("sending", server);
+        var tempSuccess = {
+            server: server,
+            group: saveGroup.name
+        };
+        rmq.publishTopic(JSON.stringify(tempSuccess), "nw_success");
+    });
 });
 
+}
 
 function checkAndAdd(name,ln) {
   var id = temp.length + 1;
@@ -170,4 +218,21 @@ function checkAndAdd(name,ln) {
     return el.username === name;
   });
   if (!found) { temp.push({ servername: name , details: ln}); }
+}
+
+
+function sendCompleteSaveGroup(file,fileName) {
+    fs = require('fs')
+    fs.readFile(file, 'utf8', function (err,data) {
+  if (err) {
+    return console.log(err);
+  }
+        var temp = {
+            fileName: fileName,
+            data: data
+        };
+  rmq.publishTopic(JSON.stringify(temp), "nw_savegroups");
+fs.unlink(file);
+        //console.log(data);
+});
 }
