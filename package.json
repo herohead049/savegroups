@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Craig David",
   "dependencies": {
+    "amqplib": "^0.3.2",
     "chalk": "^1.0.0",
     "lodash": "^3.9.3"
   },
