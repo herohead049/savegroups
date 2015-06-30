@@ -1,0 +1,34 @@
+NetWorker savegroup: (notice) CH_DB_PB1_ZH completed, Total 1 client(s), 1 Succeeded. See group completion details for more information.
+
+Succeeded: ch00spb1q
+
+Start time:   Tue Jun 30 21:00:00 2015
+End time:     Tue Jun 30 21:12:44 2015
+
+
+--- Successful Save Sets ---
+
+* ch00spb1q:savefs savefs ch00spb1q: succeeded.
+* ch00spb1q:MSSQL: suppressed 853 bytes of output.
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '1502799703' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2660428297' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 53085:(pid 5488):Backing up of PB1 succeeded.
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2526210575' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2542987790' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2459101717' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 53085:(pid 5488):Backing up of master succeeded.
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2358438425' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2375215641' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2308106782' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 53085:(pid 5488):Backing up of model succeeded.
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2257775139' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2274552355' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 86704:(pid 5488): Successfully established DDCL session for save-set ID '2207443497' (ch00spb1q.eu.mt.mtnet:MSSQL:).
+* ch00spb1q:MSSQL: 53085:(pid 5488):Backing up of msdb succeeded.
+  ch00spb1q: MSSQL:               level=incr,     56 GB 00:12:06      4 file(s)
+* ch00spb1q:MSSQL: completed savetime=1435690836
+* ch00spb1q:MSSQL: 86704 1435691564 1 0 0 10756 5488 0 ch00spb1q.eu.mt.mtnet (pid5488) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 2157111852 12 21 ch00spb1q.eu.mt.mtnet 51 6 MSSQL:
+* ch00spb1q:MSSQL: 43709 1435691564 1 0 0 10756 5488 0 ch00spb1q.eu.mt.mtnet (pid5488) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:12:44 2015
+* ch00spb1q:MSSQL: 
+
+

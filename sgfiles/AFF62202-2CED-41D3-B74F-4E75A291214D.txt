@@ -1,0 +1,711 @@
+NetWorker savegroup: (notice) CH_LOGS_DEV_GR_2 completed, Total 30 client(s), 5 Clients Disabled, 25 Succeeded. See group completion details for more information.
+
+Disabled: ch00sd01, ch00sdi1, ch00sdq5, ch00sdq6, ch00sdv1
+Succeeded: ch00sdc3, ch00sdc4, ch00sde3, ch00sde4, ch00sdh1, ch00sdi3, ch00sdi4, ch00sdj3, ch00sdj4, ch00sdk1, ch00sdl1, ch00sdn1, ch00sdn3, ch00sdo1, ch00sdp1, ch00sds1, ch00sdw3, ch00sdw4, ch00sdy1, ch00sh01, ch00si93, ch00soc3, ch00soe3.eu.mt.mtnet, ch00soj3, ch00sow3.extranet.mt.com
+
+Start time:   Tue Jun 30 21:00:00 2015
+End time:     Tue Jun 30 21:11:40 2015
+
+
+--- Successful Save Sets ---
+
+* ch00sdc3:savefs savefs ch00sdc3: succeeded.
+* ch00sdc3:MSSQL: 43708:(pid 12768):Start time: Tue Jun 30 21:03:28 2015
+* ch00sdc3:MSSQL: 43621:(pid 12768):Computer Name: CH00SDC3     User Name: SYSTEM
+* ch00sdc3:MSSQL: 87749:(pid 12768):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDC3.
+* ch00sdc3:MSSQL: 29231:(pid 12768):Only full backup is supported on master database.
+* ch00sdc3:MSSQL: 29232:(pid 12768):Database 'master' backup level forced to full.
+* ch00sdc3:MSSQL: 37790:(pid 12768):Database msdb backup level forced to full
+* ch00sdc3:MSSQL: 87746:(pid 12768):Recovery Model of Database DC3 is simple. Backup of database DC3 will be skipped.
+* ch00sdc3:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdc3:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdc3:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdc3:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdc3:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdc3:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdc3:MSSQL: 86704:(pid 12768): Successfully established DDCL session for save-set ID '3063080966' (ch00sdc3:MSSQL:).
+* ch00sdc3:MSSQL: 53085:(pid 12768):Backing up of master succeeded.
+* ch00sdc3:MSSQL: 86704:(pid 12768): Successfully established DDCL session for save-set ID '2794645565' (ch00sdc3:MSSQL:).
+* ch00sdc3:MSSQL: 53085:(pid 12768):Backing up of model succeeded.
+* ch00sdc3:MSSQL: 86704:(pid 12768): Successfully established DDCL session for save-set ID '2643650631' (ch00sdc3:MSSQL:).
+* ch00sdc3:MSSQL: 53085:(pid 12768):Backing up of msdb succeeded.
+  ch00sdc3: MSSQL:                level=incr,     33 MB 00:01:09      3 file(s)
+* ch00sdc3:MSSQL: completed savetime=1435691013
+* ch00sdc3:MSSQL: 86704 1435691084 1 0 0 15964 12768 0 ch00sdc3 (pid12768) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 2509432907 12 8 ch00sdc3 51 6 MSSQL:
+* ch00sdc3:MSSQL: 43709 1435691087 1 0 0 15964 12768 0 ch00sdc3 (pid12768) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:04:47 2015
+* ch00sdc3:MSSQL: 
+
+* ch00sdc4:savefs savefs ch00sdc4: succeeded.
+* ch00sdc4:MSSQL: 43708:(pid 6076):Start time: Tue Jun 30 21:00:14 2015
+* ch00sdc4:MSSQL: 43621:(pid 6076):Computer Name: CH00SDC4     User Name: SYSTEM
+* ch00sdc4:MSSQL: 87749:(pid 6076):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDC4.eu.mt.mtnet.
+* ch00sdc4:MSSQL: 29231:(pid 6076):Only full backup is supported on master database.
+* ch00sdc4:MSSQL: 29232:(pid 6076):Database 'master' backup level forced to full.
+* ch00sdc4:MSSQL: 37790:(pid 6076):Database msdb backup level forced to full
+* ch00sdc4:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdc4:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdc4:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdc4:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdc4:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdc4:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdc4:MSSQL: 86704:(pid 6076): Successfully established DDCL session for save-set ID '1737680722' (ch00sdc4.eu.mt.mtnet:MSSQL:).
+* ch00sdc4:MSSQL: 53085:(pid 6076):Backing up of DC4 succeeded.
+* ch00sdc4:MSSQL: 86704:(pid 6076): Successfully established DDCL session for save-set ID '1452468057' (ch00sdc4.eu.mt.mtnet:MSSQL:).
+* ch00sdc4:MSSQL: 53085:(pid 6076):Backing up of master succeeded.
+* ch00sdc4:MSSQL: 86704:(pid 6076): Successfully established DDCL session for save-set ID '1200809832' (ch00sdc4.eu.mt.mtnet:MSSQL:).
+* ch00sdc4:MSSQL: 53085:(pid 6076):Backing up of model succeeded.
+* ch00sdc4:MSSQL: 86704:(pid 6076): Successfully established DDCL session for save-set ID '949151640' (ch00sdc4.eu.mt.mtnet:MSSQL:).
+* ch00sdc4:MSSQL: 53085:(pid 6076):Backing up of msdb succeeded.
+  ch00sdc4: MSSQL:                level=incr,    232 MB 00:01:17      4 file(s)
+* ch00sdc4:MSSQL: completed savetime=1435690832
+* ch00sdc4:MSSQL: 86704 1435690911 1 0 0 9576 6076 0 ch00sdc4.eu.mt.mtnet (pid6076) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 630384543 12 20 ch00sdc4.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdc4:MSSQL: 43709 1435690921 1 0 0 9576 6076 0 ch00sdc4.eu.mt.mtnet (pid6076) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:02:01 2015
+* ch00sdc4:MSSQL: 
+
+* ch00sde3:savefs savefs ch00sde3: succeeded.
+* ch00sde3:MSSQL: 43708:(pid 10064):Start time: Tue Jun 30 21:02:36 2015
+* ch00sde3:MSSQL: 43621:(pid 10064):Computer Name: CH00SDE3     User Name: SYSTEM
+* ch00sde3:MSSQL: 87749:(pid 10064):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDE3.eu.mt.mtnet.
+* ch00sde3:MSSQL: 29231:(pid 10064):Only full backup is supported on master database.
+* ch00sde3:MSSQL: 29232:(pid 10064):Database 'master' backup level forced to full.
+* ch00sde3:MSSQL: 37790:(pid 10064):Database msdb backup level forced to full
+* ch00sde3:MSSQL: 87746:(pid 10064):Recovery Model of Database DE3 is simple. Backup of database DE3 will be skipped.
+* ch00sde3:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sde3:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sde3:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sde3:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sde3:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sde3:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sde3:MSSQL: 86704:(pid 10064): Successfully established DDCL session for save-set ID '4002605008' (ch00sde3.eu.mt.mtnet:MSSQL:).
+* ch00sde3:MSSQL: 53085:(pid 10064):Backing up of master succeeded.
+* ch00sde3:MSSQL: 86704:(pid 10064): Successfully established DDCL session for save-set ID '3784501217' (ch00sde3.eu.mt.mtnet:MSSQL:).
+* ch00sde3:MSSQL: 53085:(pid 10064):Backing up of model succeeded.
+* ch00sde3:MSSQL: 86704:(pid 10064): Successfully established DDCL session for save-set ID '3583174637' (ch00sde3.eu.mt.mtnet:MSSQL:).
+* ch00sde3:MSSQL: 53085:(pid 10064):Backing up of msdb succeeded.
+  ch00sde3: MSSQL:                level=incr,     34 MB 00:00:42      3 file(s)
+* ch00sde3:MSSQL: completed savetime=1435690960
+* ch00sde3:MSSQL: 86704 1435691004 1 0 0 5904 10064 0 ch00sde3.eu.mt.mtnet (pid10064) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3264407547 12 20 ch00sde3.eu.mt.mtnet 51 6 MSSQL:
+* ch00sde3:MSSQL: 43709 1435691020 1 0 0 5904 10064 0 ch00sde3.eu.mt.mtnet (pid10064) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:03:40 2015
+* ch00sde3:MSSQL: 
+
+* ch00sde4:savefs savefs ch00sde4: succeeded.
+* ch00sde4:MSSQL: 43708:(pid 13084):Start time: Tue Jun 30 21:00:14 2015
+* ch00sde4:MSSQL: 43621:(pid 13084):Computer Name: CH00SDE4     User Name: SYSTEM
+* ch00sde4:MSSQL: 87749:(pid 13084):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDE4.eu.mt.mtnet.
+* ch00sde4:MSSQL: 29231:(pid 13084):Only full backup is supported on master database.
+* ch00sde4:MSSQL: 29232:(pid 13084):Database 'master' backup level forced to full.
+* ch00sde4:MSSQL: 37790:(pid 13084):Database msdb backup level forced to full
+* ch00sde4:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sde4:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sde4:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sde4:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sde4:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sde4:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sde4:MSSQL: 86704:(pid 13084): Successfully established DDCL session for save-set ID '1821566800' (ch00sde4.eu.mt.mtnet:MSSQL:).
+* ch00sde4:MSSQL: 53085:(pid 13084):Backing up of DE4 succeeded.
+* ch00sde4:MSSQL: 86704:(pid 13084): Successfully established DDCL session for save-set ID '1569908565' (ch00sde4.eu.mt.mtnet:MSSQL:).
+* ch00sde4:MSSQL: 53085:(pid 13084):Backing up of master succeeded.
+* ch00sde4:MSSQL: 86704:(pid 13084): Successfully established DDCL session for save-set ID '1301473121' (ch00sde4.eu.mt.mtnet:MSSQL:).
+* ch00sde4:MSSQL: 53085:(pid 13084):Backing up of model succeeded.
+* ch00sde4:MSSQL: 86704:(pid 13084): Successfully established DDCL session for save-set ID '965928856' (ch00sde4.eu.mt.mtnet:MSSQL:).
+* ch00sde4:MSSQL: 53085:(pid 13084):Backing up of msdb succeeded.
+  ch00sde4: MSSQL:                level=incr,    217 MB 00:01:18      4 file(s)
+* ch00sde4:MSSQL: completed savetime=1435690830
+* ch00sde4:MSSQL: 86704 1435690911 1 0 0 6548 13084 0 ch00sde4.eu.mt.mtnet (pid13084) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 697493407 12 20 ch00sde4.eu.mt.mtnet 51 6 MSSQL:
+* ch00sde4:MSSQL: 43709 1435690916 1 0 0 6548 13084 0 ch00sde4.eu.mt.mtnet (pid13084) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:01:56 2015
+* ch00sde4:MSSQL: 
+
+* ch00sdh1:savefs savefs ch00sdh1: succeeded.
+* ch00sdh1:MSSQL: 43708:(pid 11212):Start time: Tue Jun 30 21:02:00 2015
+* ch00sdh1:MSSQL: 43621:(pid 11212):Computer Name: CH00SDH1     User Name: SYSTEM
+* ch00sdh1:MSSQL: 87749:(pid 11212):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDH1.eu.mt.mtnet.
+* ch00sdh1:MSSQL: 29231:(pid 11212):Only full backup is supported on master database.
+* ch00sdh1:MSSQL: 29232:(pid 11212):Database 'master' backup level forced to full.
+* ch00sdh1:MSSQL: 37790:(pid 11212):Database msdb backup level forced to full
+* ch00sdh1:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdh1:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdh1:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdh1:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdh1:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdh1:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdh1:MSSQL: 86704:(pid 11212): Successfully established DDCL session for save-set ID '278063025' (ch00sdh1.eu.mt.mtnet:MSSQL:).
+* ch00sdh1:MSSQL: 53085:(pid 11212):Backing up of DH1 succeeded.
+* ch00sdh1:MSSQL: 86704:(pid 11212): Successfully established DDCL session for save-set ID '76736446' (ch00sdh1.eu.mt.mtnet:MSSQL:).
+* ch00sdh1:MSSQL: 53085:(pid 11212):Backing up of master succeeded.
+* ch00sdh1:MSSQL: 86704:(pid 11212): Successfully established DDCL session for save-set ID '4120045514' (ch00sdh1.eu.mt.mtnet:MSSQL:).
+* ch00sdh1:MSSQL: 53085:(pid 11212):Backing up of model succeeded.
+* ch00sdh1:MSSQL: 86704:(pid 11212): Successfully established DDCL session for save-set ID '3901941720' (ch00sdh1.eu.mt.mtnet:MSSQL:).
+* ch00sdh1:MSSQL: 53085:(pid 11212):Backing up of msdb succeeded.
+  ch00sdh1: MSSQL:                level=incr,    337 MB 00:01:02      4 file(s)
+* ch00sdh1:MSSQL: completed savetime=1435690928
+* ch00sdh1:MSSQL: 86704 1435690992 1 0 0 9280 11212 0 ch00sdh1.eu.mt.mtnet (pid11212) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3549620207 12 20 ch00sdh1.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdh1:MSSQL: 43709 1435691003 1 0 0 9280 11212 0 ch00sdh1.eu.mt.mtnet (pid11212) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:03:23 2015
+* ch00sdh1:MSSQL: 
+
+* ch00sdi3:savefs savefs ch00sdi3: succeeded.
+* ch00sdi3:MSSQL: 43708:(pid 8424):Start time: Tue Jun 30 21:02:00 2015
+* ch00sdi3:MSSQL: 43621:(pid 8424):Computer Name: CH00SDI3     User Name: SYSTEM
+* ch00sdi3:MSSQL: 87749:(pid 8424):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDI3.eu.mt.mtnet.
+* ch00sdi3:MSSQL: 29231:(pid 8424):Only full backup is supported on master database.
+* ch00sdi3:MSSQL: 29232:(pid 8424):Database 'master' backup level forced to full.
+* ch00sdi3:MSSQL: 37790:(pid 8424):Database msdb backup level forced to full
+* ch00sdi3:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdi3:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdi3:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdi3:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdi3:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdi3:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 1, engineering: 1, build: 394260
+* ch00sdi3:MSSQL: 86704:(pid 8424): Successfully established DDCL session for save-set ID '361949103' (ch00sdi3.eu.mt.mtnet:MSSQL:).
+* ch00sdi3:MSSQL: 53085:(pid 8424):Backing up of DI3 succeeded.
+* ch00sdi3:MSSQL: 86704:(pid 8424): Successfully established DDCL session for save-set ID '110290878' (ch00sdi3.eu.mt.mtnet:MSSQL:).
+* ch00sdi3:MSSQL: 53085:(pid 8424):Backing up of master succeeded.
+* ch00sdi3:MSSQL: 86704:(pid 8424): Successfully established DDCL session for save-set ID '4153599945' (ch00sdi3.eu.mt.mtnet:MSSQL:).
+* ch00sdi3:MSSQL: 53085:(pid 8424):Backing up of model succeeded.
+* ch00sdi3:MSSQL: 86704:(pid 8424): Successfully established DDCL session for save-set ID '3952273367' (ch00sdi3.eu.mt.mtnet:MSSQL:).
+* ch00sdi3:MSSQL: 53085:(pid 8424):Backing up of msdb succeeded.
+  ch00sdi3: MSSQL:                level=incr,    461 MB 00:00:57      4 file(s)
+* ch00sdi3:MSSQL: completed savetime=1435690926
+* ch00sdi3:MSSQL: 86704 1435690985 1 0 0 7412 8424 0 ch00sdi3.eu.mt.mtnet (pid8424) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3683837928 12 20 ch00sdi3.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdi3:MSSQL: 43709 1435690995 1 0 0 7412 8424 0 ch00sdi3.eu.mt.mtnet (pid8424) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:03:15 2015
+* ch00sdi3:MSSQL: 
+
+* ch00sdi4:savefs savefs ch00sdi4: succeeded.
+* ch00sdi4:MSSQL: 43708:(pid 9768):Start time: Tue Jun 30 21:03:16 2015
+* ch00sdi4:MSSQL: 43621:(pid 9768):Computer Name: CH00SDI4     User Name: SYSTEM
+* ch00sdi4:MSSQL: 87749:(pid 9768):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDI4.eu.mt.mtnet.
+* ch00sdi4:MSSQL: 29231:(pid 9768):Only full backup is supported on master database.
+* ch00sdi4:MSSQL: 29232:(pid 9768):Database 'master' backup level forced to full.
+* ch00sdi4:MSSQL: 37790:(pid 9768):Database msdb backup level forced to full
+* ch00sdi4:MSSQL: 87746:(pid 9768):Recovery Model of Database DI4 is simple. Backup of database DI4 will be skipped.
+* ch00sdi4:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdi4:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdi4:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdi4:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdi4:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdi4:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdi4:MSSQL: 86704:(pid 9768): Successfully established DDCL session for save-set ID '3331516408' (ch00sdi4.eu.mt.mtnet:MSSQL:).
+* ch00sdi4:MSSQL: 53085:(pid 9768):Backing up of master succeeded.
+* ch00sdi4:MSSQL: 86704:(pid 9768): Successfully established DDCL session for save-set ID '3029526536' (ch00sdi4.eu.mt.mtnet:MSSQL:).
+* ch00sdi4:MSSQL: 53085:(pid 9768):Backing up of model succeeded.
+* ch00sdi4:MSSQL: 86704:(pid 9768): Successfully established DDCL session for save-set ID '2811422780' (ch00sdi4.eu.mt.mtnet:MSSQL:).
+* ch00sdi4:MSSQL: 53085:(pid 9768):Backing up of msdb succeeded.
+  ch00sdi4: MSSQL:                level=incr,     25 MB 00:01:21      3 file(s)
+* ch00sdi4:MSSQL: completed savetime=1435690999
+* ch00sdi4:MSSQL: 86704 1435691081 1 0 0 9184 9768 0 ch00sdi4.eu.mt.mtnet (pid9768) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 2542987336 12 20 ch00sdi4.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdi4:MSSQL: 43709 1435691085 1 0 0 9184 9768 0 ch00sdi4.eu.mt.mtnet (pid9768) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:04:45 2015
+* ch00sdi4:MSSQL: 
+
+* ch00sdj3:savefs savefs ch00sdj3: succeeded.
+* ch00sdj3:MSSQL: 43708:(pid 11940):Start time: Tue Jun 30 21:01:59 2015
+* ch00sdj3:MSSQL: 43621:(pid 11940):Computer Name: CH00SDJ3     User Name: SYSTEM
+* ch00sdj3:MSSQL: 87749:(pid 11940):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDJ3.eu.mt.mtnet.
+* ch00sdj3:MSSQL: 29231:(pid 11940):Only full backup is supported on master database.
+* ch00sdj3:MSSQL: 29232:(pid 11940):Database 'master' backup level forced to full.
+* ch00sdj3:MSSQL: 37790:(pid 11940):Database msdb backup level forced to full
+* ch00sdj3:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdj3:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdj3:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdj3:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdj3:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdj3:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdj3:MSSQL: 86704:(pid 11940): Successfully established DDCL session for save-set ID '294840241' (ch00sdj3.eu.mt.mtnet:MSSQL:).
+* ch00sdj3:MSSQL: 53085:(pid 11940):Backing up of DJ3 succeeded.
+* ch00sdj3:MSSQL: 86704:(pid 11940): Successfully established DDCL session for save-set ID '93513662' (ch00sdj3.eu.mt.mtnet:MSSQL:).
+* ch00sdj3:MSSQL: 53085:(pid 11940):Backing up of master succeeded.
+* ch00sdj3:MSSQL: 86704:(pid 11940): Successfully established DDCL session for save-set ID '4136822730' (ch00sdj3.eu.mt.mtnet:MSSQL:).
+* ch00sdj3:MSSQL: 53085:(pid 11940):Backing up of model succeeded.
+* ch00sdj3:MSSQL: 86704:(pid 11940): Successfully established DDCL session for save-set ID '3918718936' (ch00sdj3.eu.mt.mtnet:MSSQL:).
+* ch00sdj3:MSSQL: 53085:(pid 11940):Backing up of msdb succeeded.
+  ch00sdj3: MSSQL:                level=incr,     96 MB 00:00:56      4 file(s)
+* ch00sdj3:MSSQL: completed savetime=1435690927
+* ch00sdj3:MSSQL: 86704 1435690985 1 0 0 4200 11940 0 ch00sdj3.eu.mt.mtnet (pid11940) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3650283497 12 20 ch00sdj3.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdj3:MSSQL: 43709 1435690997 1 0 0 4200 11940 0 ch00sdj3.eu.mt.mtnet (pid11940) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:03:17 2015
+* ch00sdj3:MSSQL: 
+
+* ch00sdj4:savefs savefs ch00sdj4: succeeded.
+* ch00sdj4:MSSQL: 43708:(pid 3108):Start time: Tue Jun 30 21:00:15 2015
+* ch00sdj4:MSSQL: 43621:(pid 3108):Computer Name: CH00SDJ4     User Name: SYSTEM
+* ch00sdj4:MSSQL: 87749:(pid 3108):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDJ4.eu.mt.mtnet.
+* ch00sdj4:MSSQL: 29231:(pid 3108):Only full backup is supported on master database.
+* ch00sdj4:MSSQL: 29232:(pid 3108):Database 'master' backup level forced to full.
+* ch00sdj4:MSSQL: 37790:(pid 3108):Database msdb backup level forced to full
+* ch00sdj4:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdj4:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdj4:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdj4:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdj4:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdj4:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdj4:MSSQL: 86704:(pid 3108): Successfully established DDCL session for save-set ID '1704126290' (ch00sdj4.eu.mt.mtnet:MSSQL:).
+* ch00sdj4:MSSQL: 53085:(pid 3108):Backing up of DJ4 succeeded.
+* ch00sdj4:MSSQL: 86704:(pid 3108): Successfully established DDCL session for save-set ID '1435690841' (ch00sdj4.eu.mt.mtnet:MSSQL:).
+* ch00sdj4:MSSQL: 53085:(pid 3108):Backing up of master succeeded.
+* ch00sdj4:MSSQL: 86704:(pid 3108): Successfully established DDCL session for save-set ID '1184032617' (ch00sdj4.eu.mt.mtnet:MSSQL:).
+* ch00sdj4:MSSQL: 53085:(pid 3108):Backing up of model succeeded.
+* ch00sdj4:MSSQL: 86704:(pid 3108): Successfully established DDCL session for save-set ID '898819993' (ch00sdj4.eu.mt.mtnet:MSSQL:).
+* ch00sdj4:MSSQL: 53085:(pid 3108):Backing up of msdb succeeded.
+  ch00sdj4: MSSQL:                level=incr,    146 MB 00:01:16      4 file(s)
+* ch00sdj4:MSSQL: completed savetime=1435690833
+* ch00sdj4:MSSQL: 86704 1435690912 1 0 0 6824 3108 0 ch00sdj4.eu.mt.mtnet (pid3108) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 714270622 12 20 ch00sdj4.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdj4:MSSQL: 43709 1435690915 1 0 0 6824 3108 0 ch00sdj4.eu.mt.mtnet (pid3108) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:01:55 2015
+* ch00sdj4:MSSQL: 
+
+* ch00sdk1:savefs savefs ch00sdk1: succeeded.
+* ch00sdk1:MSSQL: 43708:(pid 9940):Start time: Tue Jun 30 21:01:59 2015
+* ch00sdk1:MSSQL: 43621:(pid 9940):Computer Name: CH00SDK1     User Name: SYSTEM
+* ch00sdk1:MSSQL: 87749:(pid 9940):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDK1.eu.mt.mtnet.
+* ch00sdk1:MSSQL: 29231:(pid 9940):Only full backup is supported on master database.
+* ch00sdk1:MSSQL: 29232:(pid 9940):Database 'master' backup level forced to full.
+* ch00sdk1:MSSQL: 37790:(pid 9940):Database msdb backup level forced to full
+* ch00sdk1:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdk1:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdk1:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdk1:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdk1:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdk1:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdk1:MSSQL: 86704:(pid 9940): Successfully established DDCL session for save-set ID '311617456' (ch00sdk1.eu.mt.mtnet:MSSQL:).
+* ch00sdk1:MSSQL: 53085:(pid 9940):Backing up of DK1 succeeded.
+* ch00sdk1:MSSQL: 86704:(pid 9940): Successfully established DDCL session for save-set ID '127068093' (ch00sdk1.eu.mt.mtnet:MSSQL:).
+* ch00sdk1:MSSQL: 53085:(pid 9940):Backing up of master succeeded.
+* ch00sdk1:MSSQL: 86704:(pid 9940): Successfully established DDCL session for save-set ID '4170377160' (ch00sdk1.eu.mt.mtnet:MSSQL:).
+* ch00sdk1:MSSQL: 53085:(pid 9940):Backing up of model succeeded.
+* ch00sdk1:MSSQL: 86704:(pid 9940): Successfully established DDCL session for save-set ID '3969050582' (ch00sdk1.eu.mt.mtnet:MSSQL:).
+* ch00sdk1:MSSQL: 53085:(pid 9940):Backing up of msdb succeeded.
+  ch00sdk1: MSSQL:                level=incr,    273 MB 00:00:58      4 file(s)
+* ch00sdk1:MSSQL: completed savetime=1435690926
+* ch00sdk1:MSSQL: 86704 1435690985 1 0 0 12884 9940 0 ch00sdk1.eu.mt.mtnet (pid9940) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3633506282 12 20 ch00sdk1.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdk1:MSSQL: 43709 1435690998 1 0 0 12884 9940 0 ch00sdk1.eu.mt.mtnet (pid9940) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:03:18 2015
+* ch00sdk1:MSSQL: 
+
+* ch00sdl1:savefs savefs ch00sdl1: succeeded.
+* ch00sdl1:MSSQL: 43708:(pid 3384):Start time: Tue Jun 30 21:03:23 2015
+* ch00sdl1:MSSQL: 43621:(pid 3384):Computer Name: CH00SDL1     User Name: SYSTEM
+* ch00sdl1:MSSQL: 87749:(pid 3384):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDL1.eu.mt.mtnet.
+* ch00sdl1:MSSQL: 29231:(pid 3384):Only full backup is supported on master database.
+* ch00sdl1:MSSQL: 29232:(pid 3384):Database 'master' backup level forced to full.
+* ch00sdl1:MSSQL: 37790:(pid 3384):Database msdb backup level forced to full
+* ch00sdl1:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdl1:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdl1:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdl1:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdl1:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdl1:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 1, engineering: 1, build: 394260
+* ch00sdl1:MSSQL: 86704:(pid 3384): Successfully established DDCL session for save-set ID '3130189828' (ch00sdl1.eu.mt.mtnet:MSSQL:).
+* ch00sdl1:MSSQL: 53085:(pid 3384):Backing up of DL1 succeeded.
+* ch00sdl1:MSSQL: 86704:(pid 3384): Successfully established DDCL session for save-set ID '2861754388' (ch00sdl1.eu.mt.mtnet:MSSQL:).
+* ch00sdl1:MSSQL: 53085:(pid 3384):Backing up of master succeeded.
+* ch00sdl1:MSSQL: 86704:(pid 3384): Successfully established DDCL session for save-set ID '2693982275' (ch00sdl1.eu.mt.mtnet:MSSQL:).
+* ch00sdl1:MSSQL: 53085:(pid 3384):Backing up of model succeeded.
+* ch00sdl1:MSSQL: 86704:(pid 3384): Successfully established DDCL session for save-set ID '2626873415' (ch00sdl1.eu.mt.mtnet:MSSQL:).
+* ch00sdl1:MSSQL: 53085:(pid 3384):Backing up of msdb succeeded.
+  ch00sdl1: MSSQL:                level=incr,    259 MB 00:01:17      4 file(s)
+* ch00sdl1:MSSQL: completed savetime=1435691010
+* ch00sdl1:MSSQL: 86704 1435691088 1 0 0 5256 3384 0 ch00sdl1.eu.mt.mtnet (pid3384) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 2425546832 12 20 ch00sdl1.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdl1:MSSQL: 43709 1435691092 1 0 0 5256 3384 0 ch00sdl1.eu.mt.mtnet (pid3384) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:04:52 2015
+* ch00sdl1:MSSQL: 
+
+* ch00sdn1:savefs savefs ch00sdn1: succeeded.
+* ch00sdn1:MSSQL: 43708:(pid 4264):Start time: Tue Jun 30 21:03:21 2015
+* ch00sdn1:MSSQL: 43621:(pid 4264):Computer Name: CH00SDN1     User Name: SYSTEM
+* ch00sdn1:MSSQL: 87749:(pid 4264):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDN1.eu.mt.mtnet.
+* ch00sdn1:MSSQL: 29231:(pid 4264):Only full backup is supported on master database.
+* ch00sdn1:MSSQL: 29232:(pid 4264):Database 'master' backup level forced to full.
+* ch00sdn1:MSSQL: 37790:(pid 4264):Database msdb backup level forced to full
+* ch00sdn1:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdn1:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdn1:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdn1:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdn1:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdn1:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdn1:MSSQL: 86704:(pid 4264): Successfully established DDCL session for save-set ID '3197298688' (ch00sdn1.eu.mt.mtnet:MSSQL:).
+* ch00sdn1:MSSQL: 53085:(pid 4264):Backing up of DN1 succeeded.
+* ch00sdn1:MSSQL: 86704:(pid 4264): Successfully established DDCL session for save-set ID '2945640464' (ch00sdn1.eu.mt.mtnet:MSSQL:).
+* ch00sdn1:MSSQL: 53085:(pid 4264):Backing up of master succeeded.
+* ch00sdn1:MSSQL: 86704:(pid 4264): Successfully established DDCL session for save-set ID '2727536707' (ch00sdn1.eu.mt.mtnet:MSSQL:).
+* ch00sdn1:MSSQL: 53085:(pid 4264):Backing up of model succeeded.
+* ch00sdn1:MSSQL: 86704:(pid 4264): Successfully established DDCL session for save-set ID '2559764552' (ch00sdn1.eu.mt.mtnet:MSSQL:).
+* ch00sdn1:MSSQL: 53085:(pid 4264):Backing up of msdb succeeded.
+  ch00sdn1: MSSQL:                level=incr,    329 MB 00:01:25      4 file(s)
+* ch00sdn1:MSSQL: completed savetime=1435691007
+* ch00sdn1:MSSQL: 86704 1435691095 1 0 0 2688 4264 0 ch00sdn1.eu.mt.mtnet (pid4264) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 2257774678 12 20 ch00sdn1.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdn1:MSSQL: 43709 1435691102 1 0 0 2688 4264 0 ch00sdn1.eu.mt.mtnet (pid4264) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:05:02 2015
+* ch00sdn1:MSSQL: 
+
+* ch00sdn3:savefs savefs ch00sdn3: succeeded.
+* ch00sdn3:MSSQL: 43708:(pid 1856):Start time: Tue Jun 30 21:00:14 2015
+* ch00sdn3:MSSQL: 43621:(pid 1856):Computer Name: CH00SDN3     User Name: SYSTEM
+* ch00sdn3:MSSQL: 87749:(pid 1856):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDN3.eu.mt.mtnet.
+* ch00sdn3:MSSQL: 29231:(pid 1856):Only full backup is supported on master database.
+* ch00sdn3:MSSQL: 29232:(pid 1856):Database 'master' backup level forced to full.
+* ch00sdn3:MSSQL: 37790:(pid 1856):Database msdb backup level forced to full
+* ch00sdn3:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdn3:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdn3:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdn3:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdn3:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdn3:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdn3:MSSQL: 86704:(pid 1856): Successfully established DDCL session for save-set ID '1653794643' (ch00sdn3.eu.mt.mtnet:MSSQL:).
+* ch00sdn3:MSSQL: 53085:(pid 1856):Backing up of DN3 succeeded.
+* ch00sdn3:MSSQL: 86704:(pid 1856): Successfully established DDCL session for save-set ID '1368581981' (ch00sdn3.eu.mt.mtnet:MSSQL:).
+* ch00sdn3:MSSQL: 53085:(pid 1856):Backing up of master succeeded.
+* ch00sdn3:MSSQL: 86704:(pid 1856): Successfully established DDCL session for save-set ID '1116923757' (ch00sdn3.eu.mt.mtnet:MSSQL:).
+* ch00sdn3:MSSQL: 53085:(pid 1856):Backing up of model succeeded.
+* ch00sdn3:MSSQL: 86704:(pid 1856): Successfully established DDCL session for save-set ID '999483288' (ch00sdn3.eu.mt.mtnet:MSSQL:).
+* ch00sdn3:MSSQL: 53085:(pid 1856):Backing up of msdb succeeded.
+  ch00sdn3: MSSQL:                level=incr,    609 MB 00:01:26      4 file(s)
+* ch00sdn3:MSSQL: completed savetime=1435690833
+* ch00sdn3:MSSQL: 86704 1435690921 1 0 0 7764 1856 0 ch00sdn3.eu.mt.mtnet (pid1856) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 462612393 12 20 ch00sdn3.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdn3:MSSQL: 43709 1435690931 1 0 0 7764 1856 0 ch00sdn3.eu.mt.mtnet (pid1856) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:02:11 2015
+* ch00sdn3:MSSQL: 
+
+* ch00sdo1:savefs savefs ch00sdo1: succeeded.
+* ch00sdo1:MSSQL: 43708:(pid 13892):Start time: Tue Jun 30 21:00:12 2015
+* ch00sdo1:MSSQL: 43621:(pid 13892):Computer Name: CH00SDO1     User Name: SYSTEM
+* ch00sdo1:MSSQL: 87749:(pid 13892):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDO1.eu.mt.mtnet.
+* ch00sdo1:MSSQL: 29231:(pid 13892):Only full backup is supported on master database.
+* ch00sdo1:MSSQL: 29232:(pid 13892):Database 'master' backup level forced to full.
+* ch00sdo1:MSSQL: 37790:(pid 13892):Database msdb backup level forced to full
+* ch00sdo1:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdo1:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdo1:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdo1:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdo1:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdo1:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdo1:MSSQL: 86704:(pid 13892): Successfully established DDCL session for save-set ID '1637017427' (ch00sdo1.eu.mt.mtnet:MSSQL:).
+* ch00sdo1:MSSQL: 53085:(pid 13892):Backing up of BOEDO1 succeeded.
+* ch00sdo1:MSSQL: 86704:(pid 13892): Successfully established DDCL session for save-set ID '1318250337' (ch00sdo1.eu.mt.mtnet:MSSQL:).
+* ch00sdo1:MSSQL: 53085:(pid 13892):Backing up of BOEDO1Audit succeeded.
+* ch00sdo1:MSSQL: 86704:(pid 13892): Successfully established DDCL session for save-set ID '915597208' (ch00sdo1.eu.mt.mtnet:MSSQL:).
+* ch00sdo1:MSSQL: 53085:(pid 13892):Backing up of master succeeded.
+* ch00sdo1:MSSQL: 86704:(pid 13892): Successfully established DDCL session for save-set ID '764602267' (ch00sdo1.eu.mt.mtnet:MSSQL:).
+* ch00sdo1:MSSQL: 53085:(pid 13892):Backing up of model succeeded.
+* ch00sdo1:MSSQL: 86704:(pid 13892): Successfully established DDCL session for save-set ID '496166820' (ch00sdo1.eu.mt.mtnet:MSSQL:).
+* ch00sdo1:MSSQL: 53085:(pid 13892):Backing up of msdb succeeded.
+  ch00sdo1: MSSQL:                level=incr,    580 MB 00:01:44      5 file(s)
+* ch00sdo1:MSSQL: completed savetime=1435690832
+* ch00sdo1:MSSQL: 86704 1435690938 1 0 0 13900 13892 0 ch00sdo1.eu.mt.mtnet (pid13892) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 143845308 12 20 ch00sdo1.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdo1:MSSQL: 43709 1435690950 1 0 0 13900 13892 0 ch00sdo1.eu.mt.mtnet (pid13892) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:02:30 2015
+* ch00sdo1:MSSQL: 
+
+* ch00sdp1:savefs savefs ch00sdp1: succeeded.
+* ch00sdp1:MSSQL: 43708:(pid 12476):Start time: Tue Jun 30 21:02:15 2015
+* ch00sdp1:MSSQL: 43621:(pid 12476):Computer Name: CH00SDP1     User Name: SYSTEM
+* ch00sdp1:MSSQL: 87749:(pid 12476):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDP1.eu.mt.mtnet.
+* ch00sdp1:MSSQL: 29231:(pid 12476):Only full backup is supported on master database.
+* ch00sdp1:MSSQL: 29232:(pid 12476):Database 'master' backup level forced to full.
+* ch00sdp1:MSSQL: 37790:(pid 12476):Database msdb backup level forced to full
+* ch00sdp1:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdp1:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdp1:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdp1:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdp1:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdp1:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdp1:MSSQL: 86704:(pid 12476): Successfully established DDCL session for save-set ID '9627586' (ch00sdp1.eu.mt.mtnet:MSSQL:).
+* ch00sdp1:MSSQL: 53085:(pid 12476):Backing up of DP1 succeeded.
+* ch00sdp1:MSSQL: 86704:(pid 12476): Successfully established DDCL session for save-set ID '4036159438' (ch00sdp1.eu.mt.mtnet:MSSQL:).
+* ch00sdp1:MSSQL: 53085:(pid 12476):Backing up of master succeeded.
+* ch00sdp1:MSSQL: 86704:(pid 12476): Successfully established DDCL session for save-set ID '3818055646' (ch00sdp1.eu.mt.mtnet:MSSQL:).
+* ch00sdp1:MSSQL: 53085:(pid 12476):Backing up of model succeeded.
+* ch00sdp1:MSSQL: 86704:(pid 12476): Successfully established DDCL session for save-set ID '3616729067' (ch00sdp1.eu.mt.mtnet:MSSQL:).
+* ch00sdp1:MSSQL: 53085:(pid 12476):Backing up of msdb succeeded.
+  ch00sdp1: MSSQL:                level=incr,    316 MB 00:01:05      4 file(s)
+* ch00sdp1:MSSQL: completed savetime=1435690941
+* ch00sdp1:MSSQL: 86704 1435691008 1 0 0 10648 12476 0 ch00sdp1.eu.mt.mtnet (pid12476) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3214075904 12 20 ch00sdp1.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdp1:MSSQL: 43709 1435691022 1 0 0 10648 12476 0 ch00sdp1.eu.mt.mtnet (pid12476) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:03:42 2015
+* ch00sdp1:MSSQL: 
+
+* ch00sds1:savefs savefs ch00sds1: succeeded.
+* ch00sds1:MSSQL: suppressed 976 bytes of output.
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of UNG succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '982706072' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of UNG_11222013 succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '781379483' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of ds1_db succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '563275680' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of ds2_db succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '378726318' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of ds3_db succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '177399737' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of master succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '4254263236' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of model succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '3985827793' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of msdb succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '3566397422' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of mxmc_db succeeded.
+* ch00sds1:MSSQL: 86704:(pid 9904): Successfully established DDCL session for save-set ID '3281184762' (ch00sds1.eu.mt.mtnet:MSSQL:).
+* ch00sds1:MSSQL: 53085:(pid 9904):Backing up of test succeeded.
+  ch00sds1: MSSQL:                level=incr,    584 MB 00:02:45     10 file(s)
+* ch00sds1:MSSQL: completed savetime=1435690853
+* ch00sds1:MSSQL: 86704 1435691021 1 0 0 10716 9904 0 ch00sds1.eu.mt.mtnet (pid9904) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 2995972108 12 20 ch00sds1.eu.mt.mtnet 51 6 MSSQL:
+* ch00sds1:MSSQL: 43709 1435691049 1 0 0 10716 9904 0 ch00sds1.eu.mt.mtnet (pid9904) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:04:09 2015
+* ch00sds1:MSSQL: 
+
+* ch00sdw3:savefs savefs ch00sdw3: succeeded.
+* ch00sdw3:MSSQL: 43708:(pid 1676):Start time: Tue Jun 30 21:02:04 2015
+* ch00sdw3:MSSQL: 43621:(pid 1676):Computer Name: CH00SDW3     User Name: SYSTEM
+* ch00sdw3:MSSQL: 87749:(pid 1676):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDW3.eu.mt.mtnet.
+* ch00sdw3:MSSQL: 29231:(pid 1676):Only full backup is supported on master database.
+* ch00sdw3:MSSQL: 29232:(pid 1676):Database 'master' backup level forced to full.
+* ch00sdw3:MSSQL: 37790:(pid 1676):Database msdb backup level forced to full
+* ch00sdw3:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdw3:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdw3:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdw3:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdw3:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdw3:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00sdw3:MSSQL: 86704:(pid 1676): Successfully established DDCL session for save-set ID '227731381' (ch00sdw3.eu.mt.mtnet:MSSQL:).
+* ch00sdw3:MSSQL: 53085:(pid 1676):Backing up of DW3 succeeded.
+* ch00sdw3:MSSQL: 86704:(pid 1676): Successfully established DDCL session for save-set ID '26404801' (ch00sdw3.eu.mt.mtnet:MSSQL:).
+* ch00sdw3:MSSQL: 53085:(pid 1676):Backing up of master succeeded.
+* ch00sdw3:MSSQL: 86704:(pid 1676): Successfully established DDCL session for save-set ID '4052936653' (ch00sdw3.eu.mt.mtnet:MSSQL:).
+* ch00sdw3:MSSQL: 53085:(pid 1676):Backing up of model succeeded.
+* ch00sdw3:MSSQL: 86704:(pid 1676): Successfully established DDCL session for save-set ID '3851610077' (ch00sdw3.eu.mt.mtnet:MSSQL:).
+* ch00sdw3:MSSQL: 53085:(pid 1676):Backing up of msdb succeeded.
+  ch00sdw3: MSSQL:                level=incr,     93 MB 00:00:56      4 file(s)
+* ch00sdw3:MSSQL: completed savetime=1435690931
+* ch00sdw3:MSSQL: 86704 1435690988 1 0 0 1448 1676 0 ch00sdw3.eu.mt.mtnet (pid1676) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3599951852 12 20 ch00sdw3.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdw3:MSSQL: 43709 1435691000 1 0 0 1448 1676 0 ch00sdw3.eu.mt.mtnet (pid1676) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:03:20 2015
+* ch00sdw3:MSSQL: 
+
+* ch00sdw4:savefs savefs ch00sdw4: succeeded.
+* ch00sdw4:MSSQL: 43708:(pid 9644):Start time: Tue Jun 30 21:00:14 2015
+* ch00sdw4:MSSQL: 43621:(pid 9644):Computer Name: CH00SDW4     User Name: SYSTEM
+* ch00sdw4:MSSQL: 87749:(pid 9644):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDW4.eu.mt.mtnet.
+* ch00sdw4:MSSQL: 29231:(pid 9644):Only full backup is supported on master database.
+* ch00sdw4:MSSQL: 29232:(pid 9644):Database 'master' backup level forced to full.
+* ch00sdw4:MSSQL: 37790:(pid 9644):Database msdb backup level forced to full
+* ch00sdw4:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdw4:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdw4:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdw4:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdw4:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdw4:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 1, engineering: 1, build: 394260
+* ch00sdw4:MSSQL: 86704:(pid 9644): Successfully established DDCL session for save-set ID '1670571859' (ch00sdw4.eu.mt.mtnet:MSSQL:).
+* ch00sdw4:MSSQL: 53085:(pid 9644):Backing up of DW4 succeeded.
+* ch00sdw4:MSSQL: 86704:(pid 9644): Successfully established DDCL session for save-set ID '1385359196' (ch00sdw4.eu.mt.mtnet:MSSQL:).
+* ch00sdw4:MSSQL: 53085:(pid 9644):Backing up of master succeeded.
+* ch00sdw4:MSSQL: 86704:(pid 9644): Successfully established DDCL session for save-set ID '1133700972' (ch00sdw4.eu.mt.mtnet:MSSQL:).
+* ch00sdw4:MSSQL: 53085:(pid 9644):Backing up of model succeeded.
+* ch00sdw4:MSSQL: 86704:(pid 9644): Successfully established DDCL session for save-set ID '882042777' (ch00sdw4.eu.mt.mtnet:MSSQL:).
+* ch00sdw4:MSSQL: 53085:(pid 9644):Backing up of msdb succeeded.
+  ch00sdw4: MSSQL:                level=incr,    157 MB 00:01:17      4 file(s)
+* ch00sdw4:MSSQL: completed savetime=1435690833
+* ch00sdw4:MSSQL: 86704 1435690912 1 0 0 6216 9644 0 ch00sdw4.eu.mt.mtnet (pid9644) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 580052896 12 20 ch00sdw4.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdw4:MSSQL: 43709 1435690924 1 0 0 6216 9644 0 ch00sdw4.eu.mt.mtnet (pid9644) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:02:04 2015
+* ch00sdw4:MSSQL: 
+
+* ch00sdy1:savefs savefs ch00sdy1: succeeded.
+* ch00sdy1:MSSQL: 43708:(pid 4704):Start time: Tue Jun 30 21:03:21 2015
+* ch00sdy1:MSSQL: 43621:(pid 4704):Computer Name: CH00SDY1     User Name: SYSTEM
+* ch00sdy1:MSSQL: 87749:(pid 4704):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SDY1.eu.mt.mtnet.
+* ch00sdy1:MSSQL: 29231:(pid 4704):Only full backup is supported on master database.
+* ch00sdy1:MSSQL: 29232:(pid 4704):Database 'master' backup level forced to full.
+* ch00sdy1:MSSQL: 37790:(pid 4704):Database msdb backup level forced to full
+* ch00sdy1:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sdy1:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sdy1:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sdy1:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sdy1:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sdy1:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 1, engineering: 1, build: 394260
+* ch00sdy1:MSSQL: 86704:(pid 4704): Successfully established DDCL session for save-set ID '3146967041' (ch00sdy1.eu.mt.mtnet:MSSQL:).
+* ch00sdy1:MSSQL: 53085:(pid 4704):Backing up of DY1 succeeded.
+* ch00sdy1:MSSQL: 86704:(pid 4704): Successfully established DDCL session for save-set ID '2878531603' (ch00sdy1.eu.mt.mtnet:MSSQL:).
+* ch00sdy1:MSSQL: 53085:(pid 4704):Backing up of master succeeded.
+* ch00sdy1:MSSQL: 86704:(pid 4704): Successfully established DDCL session for save-set ID '2710759491' (ch00sdy1.eu.mt.mtnet:MSSQL:).
+* ch00sdy1:MSSQL: 53085:(pid 4704):Backing up of model succeeded.
+* ch00sdy1:MSSQL: 86704:(pid 4704): Successfully established DDCL session for save-set ID '2576541768' (ch00sdy1.eu.mt.mtnet:MSSQL:).
+* ch00sdy1:MSSQL: 53085:(pid 4704):Backing up of msdb succeeded.
+  ch00sdy1: MSSQL:                level=incr,    180 MB 00:01:20      4 file(s)
+* ch00sdy1:MSSQL: completed savetime=1435691007
+* ch00sdy1:MSSQL: 86704 1435691089 1 0 0 7428 4704 0 ch00sdy1.eu.mt.mtnet (pid4704) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 2391992401 12 20 ch00sdy1.eu.mt.mtnet 51 6 MSSQL:
+* ch00sdy1:MSSQL: 43709 1435691094 1 0 0 7428 4704 0 ch00sdy1.eu.mt.mtnet (pid4704) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:04:54 2015
+* ch00sdy1:MSSQL: 
+
+* ch00sh01:savefs savefs ch00sh01: succeeded.
+* ch00sh01:MSSQL: suppressed 1059 bytes of output.
+* ch00sh01:MSSQL: 53085:(pid 4568):Backing up of ReportServer succeeded.
+* ch00sh01:MSSQL: 37935:(pid 4568):Database consistency check(s) succeeded for TeamDynamix
+* ch00sh01:MSSQL: 86704:(pid 4568): Successfully established DDCL session for save-set ID '596830492' (ch00sh01.eu.mt.mtnet:MSSQL:).
+* ch00sh01:MSSQL: 53085:(pid 4568):Backing up of TeamDynamix succeeded.
+* ch00sh01:MSSQL: 37935:(pid 4568):Database consistency check(s) succeeded for TeamDynamix-Sandbox
+* ch00sh01:MSSQL: 86704:(pid 4568): Successfully established DDCL session for save-set ID '429058394' (ch00sh01.eu.mt.mtnet:MSSQL:).
+* ch00sh01:MSSQL: 53085:(pid 4568):Backing up of TeamDynamix-Sandbox succeeded.
+* ch00sh01:MSSQL: 37935:(pid 4568):Database consistency check(s) succeeded for TeamDynamix25072010
+* ch00sh01:MSSQL: 86704:(pid 4568): Successfully established DDCL session for save-set ID '294840698' (ch00sh01.eu.mt.mtnet:MSSQL:).
+* ch00sh01:MSSQL: 53085:(pid 4568):Backing up of TeamDynamix25072010 succeeded.
+* ch00sh01:MSSQL: 37935:(pid 4568):Database consistency check(s) succeeded for master
+* ch00sh01:MSSQL: 86704:(pid 4568): Successfully established DDCL session for save-set ID '278063490' (ch00sh01.eu.mt.mtnet:MSSQL:).
+* ch00sh01:MSSQL: 53085:(pid 4568):Backing up of master succeeded.
+* ch00sh01:MSSQL: 37935:(pid 4568):Database consistency check(s) succeeded for model
+* ch00sh01:MSSQL: 86704:(pid 4568): Successfully established DDCL session for save-set ID '244509062' (ch00sh01.eu.mt.mtnet:MSSQL:).
+* ch00sh01:MSSQL: 53085:(pid 4568):Backing up of model succeeded.
+* ch00sh01:MSSQL: 37935:(pid 4568):Database consistency check(s) succeeded for msdb
+* ch00sh01:MSSQL: 86704:(pid 4568): Successfully established DDCL session for save-set ID '143845792' (ch00sh01.eu.mt.mtnet:MSSQL:).
+* ch00sh01:MSSQL: 53085:(pid 4568):Backing up of msdb succeeded.
+  ch00sh01: MSSQL:                level=incr,   1174 MB 00:08:33      7 file(s)
+* ch00sh01:MSSQL: completed savetime=1435690977
+* ch00sh01:MSSQL: 86704 1435691492 1 0 0 7784 4568 0 ch00sh01.eu.mt.mtnet (pid4568) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3247630821 12 20 ch00sh01.eu.mt.mtnet 51 6 MSSQL:
+* ch00sh01:MSSQL: 43709 1435691499 1 0 0 7784 4568 0 ch00sh01.eu.mt.mtnet (pid4568) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:11:39 2015
+* ch00sh01:MSSQL: 
+
+* ch00si93:savefs savefs ch00si93: succeeded.
+* ch00si93:MSSQL: 43708:(pid 5876):Start time: Tue Jun 30 21:02:04 2015
+* ch00si93:MSSQL: 43621:(pid 5876):Computer Name: CH00SI93     User Name: SYSTEM
+* ch00si93:MSSQL: 87749:(pid 5876):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SI93.eu.mt.mtnet.
+* ch00si93:MSSQL: 29231:(pid 5876):Only full backup is supported on master database.
+* ch00si93:MSSQL: 29232:(pid 5876):Database 'master' backup level forced to full.
+* ch00si93:MSSQL: 37790:(pid 5876):Database msdb backup level forced to full
+* ch00si93:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00si93:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00si93:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00si93:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00si93:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00si93:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 1, engineering: 1, build: 394260
+* ch00si93:MSSQL: 86704:(pid 5876): Successfully established DDCL session for save-set ID '210954167' (ch00si93.eu.mt.mtnet:MSSQL:).
+* ch00si93:MSSQL: 53085:(pid 5876):Backing up of master succeeded.
+* ch00si93:MSSQL: 86704:(pid 5876): Successfully established DDCL session for save-set ID '4287817666' (ch00si93.eu.mt.mtnet:MSSQL:).
+* ch00si93:MSSQL: 53085:(pid 5876):Backing up of model succeeded.
+* ch00si93:MSSQL: 86704:(pid 5876): Successfully established DDCL session for save-set ID '4019382223' (ch00si93.eu.mt.mtnet:MSSQL:).
+* ch00si93:MSSQL: 53085:(pid 5876):Backing up of msdb succeeded.
+* ch00si93:MSSQL: 86704:(pid 5876): Successfully established DDCL session for save-set ID '3750946786' (ch00si93.eu.mt.mtnet:MSSQL:).
+* ch00si93:MSSQL: 53085:(pid 5876):Backing up of uPerform succeeded.
+* ch00si93:MSSQL: 86704:(pid 5876): Successfully established DDCL session for save-set ID '3499288560' (ch00si93.eu.mt.mtnet:MSSQL:).
+* ch00si93:MSSQL: 53085:(pid 5876):Backing up of uPerformGlossary succeeded.
+  ch00si93: MSSQL:                level=incr,    174 MB 00:01:13      5 file(s)
+* ch00si93:MSSQL: completed savetime=1435690933
+* ch00si93:MSSQL: 86704 1435691008 1 0 0 4940 5876 0 ch00si93.eu.mt.mtnet (pid5876) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 3230853119 12 20 ch00si93.eu.mt.mtnet 51 6 MSSQL:
+* ch00si93:MSSQL: 43709 1435691021 1 0 0 4940 5876 0 ch00si93.eu.mt.mtnet (pid5876) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:03:41 2015
+* ch00si93:MSSQL: 
+
+* ch00soc3:savefs savefs ch00soc3: succeeded.
+* ch00soc3:MSSQL: 43708:(pid 27956):Start time: Tue Jun 30 21:00:15 2015
+* ch00soc3:MSSQL: 43621:(pid 27956):Computer Name: CH00SOC3     User Name: SYSTEM
+* ch00soc3:MSSQL: 87749:(pid 27956):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client ch00SOC3.eu.mt.mtnet.
+* ch00soc3:MSSQL: 29231:(pid 27956):Only full backup is supported on master database.
+* ch00soc3:MSSQL: 29232:(pid 27956):Database 'master' backup level forced to full.
+* ch00soc3:MSSQL: 37790:(pid 27956):Database msdb backup level forced to full
+* ch00soc3:MSSQL: 87746:(pid 27956):Recovery Model of Database OC3 is simple. Backup of database OC3 will be skipped.
+* ch00soc3:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00soc3:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00soc3:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00soc3:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00soc3:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00soc3:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00soc3:MSSQL: 86704:(pid 27956): Successfully established DDCL session for save-set ID '1788012368' (ch00soc3.eu.mt.mtnet:MSSQL:).
+* ch00soc3:MSSQL: 53085:(pid 27956):Backing up of master succeeded.
+* ch00soc3:MSSQL: 86704:(pid 27956): Successfully established DDCL session for save-set ID '1536354133' (ch00soc3.eu.mt.mtnet:MSSQL:).
+* ch00soc3:MSSQL: 53085:(pid 27956):Backing up of model succeeded.
+* ch00soc3:MSSQL: 86704:(pid 27956): Successfully established DDCL session for save-set ID '1284695906' (ch00soc3.eu.mt.mtnet:MSSQL:).
+* ch00soc3:MSSQL: 53085:(pid 27956):Backing up of msdb succeeded.
+  ch00soc3: MSSQL:                level=incr,     40 MB 00:00:51      3 file(s)
+* ch00soc3:MSSQL: completed savetime=1435690832
+* ch00soc3:MSSQL: 86704 1435690906 1 0 0 21768 27956 0 ch00soc3.eu.mt.mtnet (pid27956) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 1033037720 12 20 ch00soc3.eu.mt.mtnet 51 6 MSSQL:
+* ch00soc3:MSSQL: 43709 1435690908 1 0 0 21768 27956 0 ch00soc3.eu.mt.mtnet (pid27956) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:01:48 2015
+* ch00soc3:MSSQL: 
+
+* ch00soe3.eu.mt.mtnet:savefs savefs ch00soe3.eu.mt.mtnet: succeeded.
+* ch00soe3.eu.mt.mtnet:MSSQL: 43708:(pid 21444):Start time: Tue Jun 30 21:01:49 2015
+* ch00soe3.eu.mt.mtnet:MSSQL: 43621:(pid 21444):Computer Name: CH00SOE3     User Name: SYSTEM
+* ch00soe3.eu.mt.mtnet:MSSQL: 87749:(pid 21444):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SOE3.eu.mt.mtnet.
+* ch00soe3.eu.mt.mtnet:MSSQL: 29231:(pid 21444):Only full backup is supported on master database.
+* ch00soe3.eu.mt.mtnet:MSSQL: 29232:(pid 21444):Database 'master' backup level forced to full.
+* ch00soe3.eu.mt.mtnet:MSSQL: 37790:(pid 21444):Database msdb backup level forced to full
+* ch00soe3.eu.mt.mtnet:MSSQL: 87746:(pid 21444):Recovery Model of Database OE3 is simple. Backup of database OE3 will be skipped.
+* ch00soe3.eu.mt.mtnet:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00soe3.eu.mt.mtnet:MSSQL:         NSR_DEVICE_INTERFACE: DATA_DOMAIN;
+* ch00soe3.eu.mt.mtnet:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00soe3.eu.mt.mtnet:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00soe3.eu.mt.mtnet:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00soe3.eu.mt.mtnet:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00soe3.eu.mt.mtnet:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00soe3.eu.mt.mtnet:MSSQL: 86704:(pid 21444): Successfully established DDCL session for save-set ID '529721250' (ch00soe3.eu.mt.mtnet:MSSQL:).
+* ch00soe3.eu.mt.mtnet:MSSQL: 53085:(pid 21444):Backing up of master succeeded.
+* ch00soe3.eu.mt.mtnet:MSSQL: 86704:(pid 21444): Successfully established DDCL session for save-set ID '345171887' (ch00soe3.eu.mt.mtnet:MSSQL:).
+* ch00soe3.eu.mt.mtnet:MSSQL: 53085:(pid 21444):Backing up of model succeeded.
+* ch00soe3.eu.mt.mtnet:MSSQL: 86704:(pid 21444): Successfully established DDCL session for save-set ID '160622522' (ch00soe3.eu.mt.mtnet:MSSQL:).
+* ch00soe3.eu.mt.mtnet:MSSQL: 53085:(pid 21444):Backing up of msdb succeeded.
+  ch00soe3.eu.mt.mtnet: MSSQL:    level=incr,     40 MB 00:00:36      3 file(s)
+* ch00soe3.eu.mt.mtnet:MSSQL: completed savetime=1435690914
+* ch00soe3.eu.mt.mtnet:MSSQL: 86704 1435690951 1 0 0 5844 21444 0 ch00soe3.eu.mt.mtnet (pid21444) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 10 4203931590 12 20 ch00soe3.eu.mt.mtnet 51 6 MSSQL:
+* ch00soe3.eu.mt.mtnet:MSSQL: 43709 1435690963 1 0 0 5844 21444 0 ch00soe3.eu.mt.mtnet (pid21444) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:02:43 2015
+* ch00soe3.eu.mt.mtnet:MSSQL: 
+
+* ch00soj3:savefs savefs ch00soj3: succeeded.
+* ch00soj3:MSSQL: 43708:(pid 11804):Start time: Tue Jun 30 21:00:14 2015
+* ch00soj3:MSSQL: 43621:(pid 11804):Computer Name: CH00SOJ3     User Name: SYSTEM
+* ch00soj3:MSSQL: 87749:(pid 11804):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client ch00soj3.eu.mt.mtnet.
+* ch00soj3:MSSQL: 29231:(pid 11804):Only full backup is supported on master database.
+* ch00soj3:MSSQL: 29232:(pid 11804):Database 'master' backup level forced to full.
+* ch00soj3:MSSQL: 37790:(pid 11804):Database msdb backup level forced to full
+* ch00soj3:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00soj3:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00soj3:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00soj3:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00soj3:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00soj3:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 2, engineering: 0, build: 410681
+* ch00soj3:MSSQL: 86704:(pid 11804): Successfully established DDCL session for save-set ID '1687349075' (ch00soj3.eu.mt.mtnet:MSSQL:).
+* ch00soj3:MSSQL: 53085:(pid 11804):Backing up of OJ3 succeeded.
+* ch00soj3:MSSQL: 86704:(pid 11804): Successfully established DDCL session for save-set ID '1402136411' (ch00soj3.eu.mt.mtnet:MSSQL:).
+* ch00soj3:MSSQL: 53085:(pid 11804):Backing up of master succeeded.
+* ch00soj3:MSSQL: 86704:(pid 11804): Successfully established DDCL session for save-set ID '1150478187' (ch00soj3.eu.mt.mtnet:MSSQL:).
+* ch00soj3:MSSQL: 53085:(pid 11804):Backing up of model succeeded.
+* ch00soj3:MSSQL: 86704:(pid 11804): Successfully established DDCL session for save-set ID '932374424' (ch00soj3.eu.mt.mtnet:MSSQL:).
+* ch00soj3:MSSQL: 53085:(pid 11804):Backing up of msdb succeeded.
+  ch00soj3: MSSQL:                level=incr,     48 MB 00:01:15      4 file(s)
+* ch00soj3:MSSQL: completed savetime=1435690832
+* ch00soj3:MSSQL: 86704 1435690909 1 0 0 2344 11804 0 ch00soj3.eu.mt.mtnet (pid11804) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 731047837 12 20 ch00soj3.eu.mt.mtnet 51 6 MSSQL:
+* ch00soj3:MSSQL: 43709 1435690915 1 0 0 2344 11804 0 ch00soj3.eu.mt.mtnet (pid11804) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:01:55 2015
+* ch00soj3:MSSQL: 
+
+* ch00sow3.extranet.mt.com:savefs savefs ch00sow3.extranet.mt.com: succeeded.
+* ch00sow3.extranet.mt.com:MSSQL: 43708:(pid 11304):Start time: Tue Jun 30 21:00:14 2015
+* ch00sow3.extranet.mt.com:MSSQL: 43621:(pid 11304):Computer Name: CH00SOW3     User Name: SYSTEM
+* ch00sow3.extranet.mt.com:MSSQL: 87749:(pid 11304):Detected application flag NSR_SKIP_SIMPLE_DB set to TRUE in NW resources for client CH00SOW3.
+* ch00sow3.extranet.mt.com:MSSQL: 29231:(pid 11304):Only full backup is supported on master database.
+* ch00sow3.extranet.mt.com:MSSQL: 29232:(pid 11304):Database 'master' backup level forced to full.
+* ch00sow3.extranet.mt.com:MSSQL: 37790:(pid 11304):Database msdb backup level forced to full
+* ch00sow3.extranet.mt.com:MSSQL:             NSR_BACKUP_LEVEL: incr;
+* ch00sow3.extranet.mt.com:MSSQL:            NSR_DIRECT_ACCESS: default;
+* ch00sow3.extranet.mt.com:MSSQL:                    NSR_GROUP: CH_LOGS_DEV_GR_2;
+* ch00sow3.extranet.mt.com:MSSQL:             NSR_SAVESET_NAME: "MSSQL:";
+* ch00sow3.extranet.mt.com:MSSQL:                   NSR_SERVER: ch00sm33.eu.mt.mtnet;
+* ch00sow3.extranet.mt.com:MSSQL: libDDBoost version: major: 2, minor: 6, patch: 1, engineering: 1, build: 394260
+* ch00sow3.extranet.mt.com:MSSQL: 86704:(pid 11304): Successfully established DDCL session for save-set ID '1553131349' (ch00sow3:MSSQL:).
+* ch00sow3.extranet.mt.com:MSSQL: 53085:(pid 11304):Backing up of OW3 succeeded.
+* ch00sow3.extranet.mt.com:MSSQL: 86704:(pid 11304): Successfully established DDCL session for save-set ID '1267918690' (ch00sow3:MSSQL:).
+* ch00sow3.extranet.mt.com:MSSQL: 53085:(pid 11304):Backing up of master succeeded.
+* ch00sow3.extranet.mt.com:MSSQL: 86704:(pid 11304): Successfully established DDCL session for save-set ID '1066592128' (ch00sow3:MSSQL:).
+* ch00sow3.extranet.mt.com:MSSQL: 53085:(pid 11304):Backing up of model succeeded.
+* ch00sow3.extranet.mt.com:MSSQL: 86704:(pid 11304): Successfully established DDCL session for save-set ID '865265562' (ch00sow3:MSSQL:).
+* ch00sow3.extranet.mt.com:MSSQL: 53085:(pid 11304):Backing up of msdb succeeded.
+  ch00sow3.extranet.mt.com: MSSQL: level=incr,    48 MB 00:01:16      4 file(s)
+* ch00sow3.extranet.mt.com:MSSQL: completed savetime=1435690833
+* ch00sow3.extranet.mt.com:MSSQL: 86704 1435690911 1 0 0 11800 11304 0 ch00sow3 (pid11304) NSR notice 67 Successfully established DDCL session for save-set ID '%s' (%s:%s). 3 0 9 663938975 12 8 ch00sow3 51 6 MSSQL:
+* ch00sow3.extranet.mt.com:MSSQL: 43709 1435690919 1 0 0 11800 11304 0 ch00sow3 (pid11304) NSR notice 13 Stop time: %s 1 35 25 Tue Jun 30 21:01:59 2015
+* ch00sow3.extranet.mt.com:MSSQL: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
