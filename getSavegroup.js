@@ -7,6 +7,16 @@ var chalk = require('chalk');
 var _ = require('lodash');
 var cdlibjs = require('cdlibjs');
 var amqp = require('amqplib');
+var moment = require('moment');
+var chalk = require('chalk');
+
+
+var error = chalk.bold.red;
+var success = chalk.bold.green;
+var standard = chalk.bold.gray;
+var disabled = chalk.underline.gray;
+var fileSave = chalk.green;
+
 
 var rabbitMQ = {
     'server': cdlibjs.getRabbitMQAddress(),
@@ -28,7 +38,7 @@ amqp.connect(rabbitMQAuthString).then(function (conn) {
             return ch.consume(rabbitMQ.queue, function(msg) {
                 //console.log(msg.content.toString());
                 var saveGroup = JSON.parse(msg.content);
-                console.log(saveGroup.fileName);
+                console.log(fileSave(moment().format(),saveGroup.fileName));
 
                 writeFile(saveGroup.fileName, saveGroup.data);
                 ch.ack(msg);
@@ -36,7 +46,7 @@ amqp.connect(rabbitMQAuthString).then(function (conn) {
         });
 
         return ok.then(function (_consumeOk) {
-            console.log(' [*] Waiting for messages. To exit press CTRL+C'.green);
+            console.log(success(' [*] Waiting for messages. To exit press CTRL+C'));
         });
     });
 }).then(null, console.warn);
@@ -47,6 +57,6 @@ function writeFile(file, data) {
         if(err) {
             return console.log(err);
         }
-        console.log("The file was saved!");
+        //console.log("The file was saved!");
     });
 }

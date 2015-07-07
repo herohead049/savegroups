@@ -8,8 +8,7 @@ var chalk = require('chalk');
 var _ = require('lodash');
 var cdlibjs = require('cdlibjs');
 var chokidar = require('chokidar');
-
-
+var moment = require('moment');
 
 var error = chalk.bold.red;
 var success = chalk.bold.green;
@@ -152,7 +151,8 @@ findPattern([file],/\(notice\)/g)
     _.forEach(saveGroup.disabled, function (server) {
     var tempDisabled = {
             server: server,
-            group: saveGroup.name
+            group: saveGroup.name,
+            timeStamp: moment().format()
         };
         rmq.publishTopic(JSON.stringify(tempDisabled), "nw_disabled");
     });
@@ -175,7 +175,8 @@ findPattern([file],/\(notice\)/g)
     _.forEach(saveGroup.failed, function (server) {
         var tempFailed = {
             server: server,
-            group: saveGroup.name
+            group: saveGroup.name,
+            timeStamp: moment().format()
         };
         rmq.publishTopic(JSON.stringify(tempFailed), "nw_failed");
     });
@@ -204,7 +205,8 @@ findPattern([file],/\(notice\)/g)
         console.log("sending", server);
         var tempSuccess = {
             server: server,
-            group: saveGroup.name
+            group: saveGroup.name,
+            timeStamp: moment().format()
         };
         rmq.publishTopic(JSON.stringify(tempSuccess), "nw_success");
     });
@@ -229,6 +231,7 @@ function sendCompleteSaveGroup(file,fileName) {
   }
         var temp = {
             fileName: fileName,
+            timeStamp: moment().format(),
             data: data
         };
   rmq.publishTopic(JSON.stringify(temp), "nw_savegroups");

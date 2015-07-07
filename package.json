@@ -9,7 +9,8 @@
     "cdlibjs": "^1.1.5",
     "chalk": "^1.0.0",
     "chokidar": "^1.0.3",
-    "lodash": "^3.9.3"
+    "lodash": "^3.9.3",
+    "moment": "^2.10.3"
   },
   "license": "MIT"
 }
